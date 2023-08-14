@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    width: 1366px;
+    height: 610px;
+    background: linear-gradient(135deg, rgba(55, 2, 2, 0.94) 0%, rgba(231, 0, 0, 0.00) 100%), #153995;
+}
+
+body{
+    position: absolute;
+    margin: 0;
+    background-color: white;
+    width: 1220px;
+    height: 462px;
+    top: 74px;
+    left: 73px;
+    flex-shrink: 0; 
+    border-radius: 50px;
+    display: flex;
+    gap: 200px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    align-items: flex-start;
+}
+
+#logo {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    letter-spacing: 6.75px;
+    margin-bottom: 37px;
+}
+
+p {
+    margin-bottom: 6px;
+    margin-top: 24px;
+}
+
+#colum0{
+    height: 100%;
+    position: absolute;
+    left: 43px;
+    margin: 0;
+}
+
+#linha0 {
+    height: 362px;
+    border-right: 1px solid black;
+    position: absolute;
+    left: 382px;
+    top: 62px;
+}
+
+#colum1 {
+    position: absolute;
+    left: 427px;
+    top: 55px;
+    margin: 0;
+}
+
+#linha1 {
+    height: 362px;
+    border-right: 1px solid black;
+    position: absolute;
+    left: 837px;
+    top: 62px;
+}
+
+#colum2 {
+    position: absolute;
+    left: 882px;
+    top: 55px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    width: 147px; 
+    height: 20px; 
+    border-radius: 5px;
+    background: #D9D9D9;
+    border: none; 
+    padding-left: 5px;
+}
+
+input.maior, textarea {
+    width: 249px;
+    height: 20px; 
+    border-radius: 5px;
+    background: #D9D9D9;
+    border: none; 
+    padding-left: 5px;
+}
+
+select {
+    width: 147px; 
+    height: 20px; 
+    border-radius: 5px;
+    background: #D9D9D9;
+    border: none; 
+    padding-left: 5px; 
+}
+
+button {
+    margin-top: 45px;
+    height: 30px; 
+    background-color: #153995;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #2054d6;  
+}
